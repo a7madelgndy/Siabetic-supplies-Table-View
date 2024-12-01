@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  MProject
+
+  Created by Ahmed El Gndy on 16/11/2024.
+  
+*/
+
+//FontsFont
+"BlackFont" = "Poppins-Black" ;
+"BoldFont" = "Poppins-Bold" ;
+"ExtraBoldFont" = "Poppins-ExtraBold" ;
+"LightFont" = "Poppins-Light" ;
+"MediumFont" = "Poppins-Medium" ;
+"RegularFont" = "Poppins-Regular" ;
+"SemiBoldFont" = "Poppins-Regular" ;
+
+//Buttons
+"loginBtn" = "Login" ;
+"RegisterBtn" = "Register" ;
+"GuestBtn" = "Guest" ;
+
+//Text fields
+"EmailTextField" = "Email" ;
+"PasswordField"  = "Password" ;
+"EmailOrphoneFeild" = "Email or Phone" ;
+"ForgetPasswordBtn" = "Forget Password ?" ;
+//Labels
+"continueAsLabel" = "continue As " ;

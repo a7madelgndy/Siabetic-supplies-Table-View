@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153EBE312CFC4B8F00351CAB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EBE302CFC4B8F00351CAB /* Product.swift */; };
+		153EBE632CFC507F00351CAB /* Stirng+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EBE3F2CFC507E00351CAB /* Stirng+Extention.swift */; };
+		153EBE652CFC507F00351CAB /* UILabel +  Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EBE412CFC507E00351CAB /* UILabel +  Extention.swift */; };
+		153EBE852CFC50B700351CAB /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EBE7D2CFC50B700351CAB /* Sizes.swift */; };
+		153EBE892CFC538F00351CAB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153EBE882CFC538F00351CAB /* Colors.xcassets */; };
+		153EBE8B2CFC539D00351CAB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EBE8A2CFC539D00351CAB /* Colors.swift */; };
+		15760E022CFC3799006C3F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15760E012CFC3799006C3F8D /* AppDelegate.swift */; };
+		15760E0B2CFC379A006C3F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15760E0A2CFC379A006C3F8D /* Assets.xcassets */; };
+		15760E0E2CFC379A006C3F8D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 15760E0D2CFC379A006C3F8D /* Base */; };
+		15760E192CFC3917006C3F8D /* DiabeticSuppliesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15760E182CFC3917006C3F8D /* DiabeticSuppliesViewController.xib */; };
+		15760E1A2CFC3917006C3F8D /* DiabeticSuppliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15760E172CFC3917006C3F8D /* DiabeticSuppliesViewController.swift */; };
+		15760E202CFC3CB4006C3F8D /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15760E1F2CFC3CB4006C3F8D /* ProductTableViewCell.xib */; };
+		15760E212CFC3CB4006C3F8D /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15760E1E2CFC3CB4006C3F8D /* ProductTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		153EBE302CFC4B8F00351CAB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		153EBE3F2CFC507E00351CAB /* Stirng+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stirng+Extention.swift"; sourceTree = "<group>"; };
+		153EBE412CFC507E00351CAB /* UILabel +  Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel +  Extention.swift"; sourceTree = "<group>"; };
+		153EBE7D2CFC50B700351CAB /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		153EBE882CFC538F00351CAB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		153EBE8A2CFC539D00351CAB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		15760DFE2CFC3799006C3F8D /* Table View Practices (Diabetic Supplies).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View Practices (Diabetic Supplies).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15760E012CFC3799006C3F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15760E0A2CFC379A006C3F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15760E0D2CFC379A006C3F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15760E0F2CFC379A006C3F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15760E172CFC3917006C3F8D /* DiabeticSuppliesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabeticSuppliesViewController.swift; sourceTree = "<group>"; };
+		15760E182CFC3917006C3F8D /* DiabeticSuppliesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiabeticSuppliesViewController.xib; sourceTree = "<group>"; };
+		15760E1E2CFC3CB4006C3F8D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		15760E1F2CFC3CB4006C3F8D /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15760DFB2CFC3799006C3F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153EBE2F2CFC4B6D00351CAB /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				153EBE302CFC4B8F00351CAB /* Product.swift */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		153EBE442CFC507E00351CAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				153EBE3F2CFC507E00351CAB /* Stirng+Extention.swift */,
+				153EBE412CFC507E00351CAB /* UILabel +  Extention.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		153EBE592CFC507E00351CAB /* Utilities  */ = {
+			isa = PBXGroup;
+			children = (
+				153EBE872CFC536100351CAB /* ColorSystem */,
+				153EBE7F2CFC50B700351CAB /* Enums */,
+				153EBE442CFC507E00351CAB /* Extensions */,
+			);
+			name = "Utilities ";
+			path = "../Utilities ";
+			sourceTree = "<group>";
+		};
+		153EBE7F2CFC50B700351CAB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				153EBE7D2CFC50B700351CAB /* Sizes.swift */,
+			);
+			name = Enums;
+			path = Extensions/Enums;
+			sourceTree = "<group>";
+		};
+		153EBE872CFC536100351CAB /* ColorSystem */ = {
+			isa = PBXGroup;
+			children = (
+				153EBE882CFC538F00351CAB /* Colors.xcassets */,
+				153EBE8A2CFC539D00351CAB /* Colors.swift */,
+			);
+			path = ColorSystem;
+			sourceTree = "<group>";
+		};
+		15760DF52CFC3798006C3F8D = {
+			isa = PBXGroup;
+			children = (
+				15760E002CFC3799006C3F8D /* Table View Practices (Diabetic Supplies) */,
+				15760DFF2CFC3799006C3F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15760DFF2CFC3799006C3F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15760DFE2CFC3799006C3F8D /* Table View Practices (Diabetic Supplies).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15760E002CFC3799006C3F8D /* Table View Practices (Diabetic Supplies) */ = {
+			isa = PBXGroup;
+			children = (
+				153EBE592CFC507E00351CAB /* Utilities  */,
+				153EBE2F2CFC4B6D00351CAB /* Modle */,
+				15760E152CFC38B0006C3F8D /* Screens */,
+				15760E012CFC3799006C3F8D /* AppDelegate.swift */,
+				15760E0A2CFC379A006C3F8D /* Assets.xcassets */,
+				15760E0C2CFC379A006C3F8D /* LaunchScreen.storyboard */,
+				15760E0F2CFC379A006C3F8D /* Info.plist */,
+			);
+			path = "Table View Practices (Diabetic Supplies)";
+			sourceTree = "<group>";
+		};
+		15760E152CFC38B0006C3F8D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				15760E162CFC38BC006C3F8D /* Products */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		15760E162CFC38BC006C3F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15760E1D2CFC3C83006C3F8D /* View */,
+				15760E172CFC3917006C3F8D /* DiabeticSuppliesViewController.swift */,
+				15760E182CFC3917006C3F8D /* DiabeticSuppliesViewController.xib */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		15760E1D2CFC3C83006C3F8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15760E1E2CFC3CB4006C3F8D /* ProductTableViewCell.swift */,
+				15760E1F2CFC3CB4006C3F8D /* ProductTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15760DFD2CFC3799006C3F8D /* Table View Practices (Diabetic Supplies) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15760E122CFC379A006C3F8D /* Build configuration list for PBXNativeTarget "Table View Practices (Diabetic Supplies)" */;
+			buildPhases = (
+				15760DFA2CFC3799006C3F8D /* Sources */,
+				15760DFB2CFC3799006C3F8D /* Frameworks */,
+				15760DFC2CFC3799006C3F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Table View Practices (Diabetic Supplies)";
+			productName = "Table View Practices (Diabetic Supplies)";
+			productReference = 15760DFE2CFC3799006C3F8D /* Table View Practices (Diabetic Supplies).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15760DF62CFC3798006C3F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					15760DFD2CFC3799006C3F8D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 15760DF92CFC3798006C3F8D /* Build configuration list for PBXProject "Table View Practices (Diabetic Supplies)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 15760DF52CFC3798006C3F8D;
+			productRefGroup = 15760DFF2CFC3799006C3F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15760DFD2CFC3799006C3F8D /* Table View Practices (Diabetic Supplies) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15760DFC2CFC3799006C3F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EBE892CFC538F00351CAB /* Colors.xcassets in Resources */,
+				15760E0B2CFC379A006C3F8D /* Assets.xcassets in Resources */,
+				15760E202CFC3CB4006C3F8D /* ProductTableViewCell.xib in Resources */,
+				15760E192CFC3917006C3F8D /* DiabeticSuppliesViewController.xib in Resources */,
+				15760E0E2CFC379A006C3F8D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15760DFA2CFC3799006C3F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15760E1A2CFC3917006C3F8D /* DiabeticSuppliesViewController.swift in Sources */,
+				153EBE8B2CFC539D00351CAB /* Colors.swift in Sources */,
+				153EBE852CFC50B700351CAB /* Sizes.swift in Sources */,
+				153EBE632CFC507F00351CAB /* Stirng+Extention.swift in Sources */,
+				153EBE312CFC4B8F00351CAB /* Product.swift in Sources */,
+				15760E022CFC3799006C3F8D /* AppDelegate.swift in Sources */,
+				15760E212CFC3CB4006C3F8D /* ProductTableViewCell.swift in Sources */,
+				153EBE652CFC507F00351CAB /* UILabel +  Extention.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15760E0C2CFC379A006C3F8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15760E0D2CFC379A006C3F8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15760E102CFC379A006C3F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15760E112CFC379A006C3F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15760E132CFC379A006C3F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88966CQ476;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Table View Practices (Diabetic Supplies)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmed-elgndy.Table-View-Practices--Diabetic-Supplies-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		15760E142CFC379A006C3F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88966CQ476;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Table View Practices (Diabetic Supplies)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmed-elgndy.Table-View-Practices--Diabetic-Supplies-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15760DF92CFC3798006C3F8D /* Build configuration list for PBXProject "Table View Practices (Diabetic Supplies)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15760E102CFC379A006C3F8D /* Debug */,
+				15760E112CFC379A006C3F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15760E122CFC379A006C3F8D /* Build configuration list for PBXNativeTarget "Table View Practices (Diabetic Supplies)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15760E132CFC379A006C3F8D /* Debug */,
+				15760E142CFC379A006C3F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15760DF62CFC3798006C3F8D /* Project object */;
+}

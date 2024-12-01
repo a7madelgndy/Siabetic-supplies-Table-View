@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="521" id="KGk-i7-Jjw" customClass="ProductTableViewCell" customModule="Table_View_Practices__Diabetic_Supplies_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="677" height="521"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="677" height="521"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eew-9Q-fCS">
+                        <rect key="frame" x="20" y="12" width="637" height="497"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Diabetic Photo" translatesAutoresizingMaskIntoConstraints="NO" id="DE4-9q-XOl">
+                                <rect key="frame" x="0.0" y="0.0" width="637" height="394"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DE4-9q-XOl" secondAttribute="height" multiplier="320: 198" id="5Uy-FS-uOl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vF-0v-a5n">
+                                <rect key="frame" x="12" y="406" width="613" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Kxy-2n-G1D">
+                                <rect key="frame" x="12" y="435.33333333333331" width="613" height="51"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="3fP-Xc-sFW">
+                                        <rect key="frame" x="0.0" y="30.666666666666686" width="521" height="20.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7a-gX-4tX">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KwD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzC-xs-lLA">
+                                                <rect key="frame" x="38" y="0.0" width="483" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDb-Ye-ZuQ">
+                                        <rect key="frame" x="521" y="0.0" width="92" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="UDb-Ye-ZuQ" secondAttribute="height" multiplier="49:27" id="sYN-IK-yCI"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="cart.fill" catalog="system" symbolScale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gV-Rs-GL1">
+                                <rect key="frame" x="587" y="6" width="36" height="32.666666666666664"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3gV-Rs-GL1" secondAttribute="height" multiplier="17.8:16.2" id="fel-zL-Xj9"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="NotFavorite"/>
+                                <connections>
+                                    <action selector="favoriteButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="GbH-Px-ay7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3gV-Rs-GL1" firstAttribute="top" secondItem="eew-9Q-fCS" secondAttribute="top" constant="6" id="1qQ-Qb-6Ki"/>
+                            <constraint firstItem="8vF-0v-a5n" firstAttribute="leading" secondItem="eew-9Q-fCS" secondAttribute="leading" constant="12" id="AXo-FL-4hy"/>
+                            <constraint firstItem="DE4-9q-XOl" firstAttribute="leading" secondItem="eew-9Q-fCS" secondAttribute="leading" id="DyQ-cs-cew"/>
+                            <constraint firstAttribute="trailing" secondItem="3gV-Rs-GL1" secondAttribute="trailing" constant="14" id="Ini-YC-I5A"/>
+                            <constraint firstAttribute="trailing" secondItem="8vF-0v-a5n" secondAttribute="trailing" constant="12" id="JH3-J6-ETg"/>
+                            <constraint firstItem="DE4-9q-XOl" firstAttribute="top" secondItem="eew-9Q-fCS" secondAttribute="top" id="PAM-0A-gcg"/>
+                            <constraint firstItem="8vF-0v-a5n" firstAttribute="top" secondItem="DE4-9q-XOl" secondAttribute="bottom" constant="12" id="W3p-Kk-wQ4"/>
+                            <constraint firstItem="Kxy-2n-G1D" firstAttribute="top" secondItem="8vF-0v-a5n" secondAttribute="bottom" constant="9" id="c9f-VT-i8C"/>
+                            <constraint firstAttribute="trailing" secondItem="Kxy-2n-G1D" secondAttribute="trailing" constant="12" id="eCz-qJ-Sek"/>
+                            <constraint firstItem="Kxy-2n-G1D" firstAttribute="leading" secondItem="eew-9Q-fCS" secondAttribute="leading" constant="12" id="h7A-yz-nFG"/>
+                            <constraint firstAttribute="trailing" secondItem="DE4-9q-XOl" secondAttribute="trailing" id="wpt-9G-yoq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eew-9Q-fCS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Oxl-NF-DhT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eew-9Q-fCS" secondAttribute="trailing" id="Vwn-Sm-BSg"/>
+                    <constraint firstItem="eew-9Q-fCS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="WVJ-0t-4Fd"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eew-9Q-fCS" secondAttribute="bottom" id="ZDN-aX-5ty"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <constraints>
+                <constraint firstItem="UDb-Ye-ZuQ" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="49/360" id="kBj-e8-0wQ"/>
+                <constraint firstItem="3gV-Rs-GL1" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="17/320" id="uNg-Sp-zgJ"/>
+            </constraints>
+            <connections>
+                <outlet property="FavoriteButtonImage" destination="3gV-Rs-GL1" id="gwW-s9-NLa"/>
+                <outlet property="productImage" destination="DE4-9q-XOl" id="IvQ-bj-kID"/>
+                <outlet property="productPriceLbl" destination="c7a-gX-4tX" id="TY8-r4-10Y"/>
+                <outlet property="protuctNameLbl" destination="8vF-0v-a5n" id="cw1-Vd-4M1"/>
+            </connections>
+            <point key="canvasLocation" x="405.34351145038164" y="246.12676056338029"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Diabetic Photo" width="800" height="600"/>
+        <image name="NotFavorite" width="17.333333969116211" height="17"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

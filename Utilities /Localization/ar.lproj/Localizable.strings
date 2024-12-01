@@ -1,0 +1,29 @@
+/*
+  Localizable.strings
+  MProject
+
+  Created by Ahmed El Gndy on 16/11/2024.
+  
+*/
+//FontsFont
+"BlackFont" = "Cairo-Black" ;
+"BoldFont" = "Cairo-Bold" ;
+"ExtraBoldFont" = "Cairo-ExtraBold" ;
+"LightFont" = "Cairo-Light" ;
+"MediumFont" = "Cairo-Medium" ;
+"RegularFont" = "Cairo-Regular" ;
+"SemiBoldFont" = "Cairo-Regular" ;
+
+//Buttons
+"loginBtn" = "تسجيل دخول" ;
+"RegisterBtn" = "مستخدم جديد" ;
+"ForgetPasswordBtn" = " نسيت كلمه السر ؟ " ;
+"GuestBtn" = "زائر" ;
+
+//Text Field
+"EmailTextField" = "البريد الالكتروني" ;
+"PasswordField"  = "كلمه المرور " ;
+"EmailOrphoneFeild" = "البريد الالكتوني او رقم التلفون" ;
+
+//Labels
+"continueAsLabel" = "لاستمرار ك " ;
